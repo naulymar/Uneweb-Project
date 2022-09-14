@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-nav{
+    background-color: aqua;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
