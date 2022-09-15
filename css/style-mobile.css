@@ -1,0 +1,26 @@
+@media screen and (max-width: 375px){
+    .container{
+        background-color: aqua;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: .5rem 2rem;
+        font-family: 'White Elephant', sans-serif;
+        font-size: 18px;
+    }
+
+    a:first-child{
+        margin-top: 1rem;
+    }
+    
+    a:hover{
+        border-bottom: .1rem solid black;
+        transform: 1s;
+    }
+}
