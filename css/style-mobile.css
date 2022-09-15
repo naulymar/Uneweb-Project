@@ -1,6 +1,6 @@
 @media screen and (max-width: 375px){
     .container{
-        background-color: aqua;
+        background-color: var(--WhiteNotWhite);
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -22,5 +22,11 @@
     a:hover{
         border-bottom: .1rem solid black;
         transform: 1s;
+    }
+
+    h1{ 
+        text-align: center;
+        font-size: 3rem;
+        margin: 2rem 0;
     }
 }
