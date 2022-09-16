@@ -64,6 +64,8 @@ h1{
     font-family: 'Zen Dots', cursive;
 }
 
+/* ABOUT ME SECTION */
+
 #about-me{
     max-width: 1400px;
     margin: 2rem;
@@ -97,9 +99,11 @@ h1{
     border-radius: 2rem;
 }
 
+
+/* PROJECTS SECTION */
 #projects{
     background-color: var(--DarkBlue);
-    height: 50vh;
+    height: fit-content;
     max-width: 1400px;
     display: flex;
     justify-content: center;
@@ -111,7 +115,24 @@ h1{
 .projects-container{
     display: flex;
     flex-direction: column;
-    max-width: 50%;
     margin: 1rem;
     text-align: center;
+}
+
+.cards-container{
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+    margin: 1rem;
+    
+    
+}
+
+.card{
+    min-width: 15rem;
+    border: 1px solid salmon;
+    margin: 1rem;
+
 }
