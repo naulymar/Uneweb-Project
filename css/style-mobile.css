@@ -5,8 +5,7 @@
 
     .container{
         flex-direction: column;
-        justify-content: space-around;
-        
+        justify-content: space-around;  
     }
 
     .container-logo-menu{
@@ -21,10 +20,11 @@
     }
 
     .main-nav{
-        clip-path: circle(0 at center);
+        display: none;
     }
 
     .nav-menu-input:checked + .main-nav{
+        display: block;
         clip-path: circle(100% at center);
     }
 
