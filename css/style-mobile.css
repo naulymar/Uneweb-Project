@@ -25,4 +25,10 @@
         flex-direction: column;
         gap: 0rem;
     }
+
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
