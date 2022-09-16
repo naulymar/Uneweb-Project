@@ -1,4 +1,8 @@
 @media screen and (max-width: 400px){
+    section[id]{
+        scroll-margin-top: 15rem;
+    }
+
     .container{
         flex-direction: column;
         justify-content: center;

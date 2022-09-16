@@ -21,6 +21,10 @@ html{
     scroll-behavior: smooth;
 }
 
+section[id]{
+    scroll-margin-top: 5rem;
+}
+
 header{
     max-width: 1400px;
 }
