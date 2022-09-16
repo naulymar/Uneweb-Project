@@ -1,6 +1,5 @@
 @media screen and (max-width: 400px){
     .container{
-        background-color: var(--WhiteNotWhite);
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -8,25 +7,22 @@
 
     a{
         display: flex;
-        text-decoration: none;
-        color: black;
-        padding: .5rem 2rem;
-        font-family: 'White Elephant', sans-serif;
-        font-size: 18px;
     }
 
     a:first-child{
         margin-top: 1rem;
-    }
-    
-    a:hover{
-        border-bottom: .1rem solid black;
-        transform: 1s;
     }
 
     h1{ 
         text-align: center;
         font-size: 3rem;
         margin: 2rem 0;
+    }
+
+    #about-me{
+        max-width: 1400px;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
     }
 }
