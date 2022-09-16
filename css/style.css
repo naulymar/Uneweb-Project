@@ -31,7 +31,6 @@ header{
 
 .container{
     max-width: 1400px;
-    margin: auto;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -45,6 +44,14 @@ header{
 #logo{
     text-transform: uppercase;
     font-family: 'Zen Dots', cursive;
+}
+
+.nav-menu-img{
+    width: 15px;
+}
+
+.nav-menu-img, .nav-menu-input{
+    display: none;
 }
 
 a{
@@ -106,8 +113,9 @@ h1{
     text-align: center;
 }
 
-h2{
+.about-container h2{
     font-family: 'Zen Dots', cursive;
+    margin: 1rem;
 }
 
 .about-container p{
@@ -144,6 +152,11 @@ h2{
     flex-direction: column;
     margin: 1rem;
     text-align: center;
+}
+
+
+.projects-container h2{
+    font-family: 'Zen Dots', cursive;
 }
 
 .cards-container{
