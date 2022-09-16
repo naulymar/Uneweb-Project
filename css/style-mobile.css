@@ -5,12 +5,32 @@
 
     .container{
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
+        
+    }
+
+    .container-logo-menu{
+        display: flex;
+        justify-content: space-between;
         align-items: center;
     }
 
-    a{
+    .nav-menu-img{
+        display: block;
+        cursor: pointer;
+    }
+
+    .main-nav{
+        clip-path: circle(0 at center);
+    }
+
+    .nav-menu-input:checked + .main-nav{
+        clip-path: circle(100% at center);
+    }
+
+    .container a{
         display: flex;
+        justify-content: center;
     }
 
     a:first-child{
@@ -33,6 +53,10 @@
         display: flex;
         flex-direction: column;
         gap: 0rem;
+    }
+
+    #about-me h2{
+        margin: 0 0 1rem 0;
     }
 
     .cards-container{
